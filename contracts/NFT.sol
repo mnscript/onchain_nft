@@ -83,8 +83,8 @@ contract PrettyAwesomeWords is ERC721Enumerable, Ownable {
     // This will pay HashLips 5% of the initial sale.
     // You can remove this if you want, or keep it in to support HashLips and his channel.
     // =============================================================================
-    (bool hs, ) = payable(0x943590A42C27D08e3744202c4Ae5eD55c2dE240D).call{value: address(this).balance * 5 / 100}("");
-    require(hs);
+    //(bool hs, ) = payable(0x943590A42C27D08e3744202c4Ae5eD55c2dE240D).call{value: address(this).balance * 5 / 100}("");
+    //require(hs);
     // =============================================================================
     
     // This will payout the owner 95% of the contract balance.
